@@ -60,7 +60,7 @@
 <h3 align="center"><b>Let's Connect</b></h3>
 <div align="center">
 <a href="https://www.linkedin.com/in/chanary-wilson/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="height: 3rem"/></a>
-<a href="mailto:chanarykw@gmail.com" target="_blank"><img width="45" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" style="height: 3rem"/></a>
+<a href="mailto:chanarykw@gmail.com"><img width="45" height="48" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" style="height: 3rem"/></a>
 
 </div>
 
