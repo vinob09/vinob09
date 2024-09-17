@@ -1,7 +1,10 @@
-## Hi there 👋
+![Chanary Wilson](https://github.com/user-attachments/assets/5b7090d7-865f-41e3-8ff7-ba251b6d2e0c)
+
+## Hi! I'm Chanary Wilson! 
 
 <!--
 **vinob09/vinob09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
 
 Here are some ideas to get you started:
 
