@@ -1,6 +1,6 @@
 ![Chanary Wilson](https://github.com/user-attachments/assets/5b7090d7-865f-41e3-8ff7-ba251b6d2e0c)
 
-<h1 align="center">Hi! I'm Chan! <img width="35px" height="40px" align="center" src="./src/assets/dog-dog-ball.gif"/></h1>
+<h1 align="center">Hi! I'm Chan! <img width="35px" height="40px" align="center" src="./assets/images/dog-dog-ball.gif"/></h1>
 
 <h3 align="center"><b>About Me:</b></h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
