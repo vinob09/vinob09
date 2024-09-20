@@ -327,12 +327,12 @@ nav a:hover::before {
 }
 
 .first-content .author-image img {
-	margin-top: 15px;
-	border-radius: 30px;
-	max-width: 100%;
-	overflow: hidden;
-	float: left;
-	margin-right: 35px;
+    border-radius: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    float: left;
+    margin-right: 35px;
 }
 
 .first-content h2 {
@@ -416,8 +416,10 @@ nav a:hover::before {
 }
 
 .second-content .right-image img {
-	max-width: 100%;
-	min-width: 100%;
+	/* max-width: 100%;
+	min-width: 100%; */
+	width: 550px;
+	height: 750px;
 	overflow: hidden;
 	float: right;
 }
@@ -537,6 +539,40 @@ nav a:hover::before {
 	margin: 0px;
 	padding: 0px;
 }
+
+.skills-section {
+    margin: 50px 0;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #4CAF50;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    width: 0%;
+    transition: width 1s ease;
+}
+
 
 
 .fourth-content {
