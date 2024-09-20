@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://vinob09.github.io/vinob09/">
+  <a href="https://vinob09.github.io/vinob09/" target="_blank">
     <img src="https://github.com/user-attachments/assets/5b7090d7-865f-41e3-8ff7-ba251b6d2e0c" alt="banner image">
   </a>
   <em style="font-size: 11px;">(Click ⬆️ for my portfolio!)</em>
