@@ -1,0 +1,19 @@
+{
+  "name": "08-portfolio",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://vinob09.github.io/vinob09/\" target=\"_blank\">     <img src=\"https://github.com/user-attachments/assets/5b7090d7-865f-41e3-8ff7-ba251b6d2e0c\" alt=\"banner image\">   </a>   <em style=\"font-size: 11px;\">(Click ⬆️ for my portfolio!)</em> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "lightbox2": "^2.11.4",
+    "modernizr": "^3.13.1"
+  }
+}
