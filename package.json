@@ -4,7 +4,11 @@
   "description": "<p align=\"center\">   <a href=\"https://vinob09.github.io/vinob09/\" target=\"_blank\">     <img src=\"https://github.com/user-attachments/assets/5b7090d7-865f-41e3-8ff7-ba251b6d2e0c\" alt=\"banner image\">   </a>   <em style=\"font-size: 11px;\">(Click ⬆️ for my portfolio!)</em> </p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run minify-css && npm run minify-js",
+    "clean": "rm -rf dist",
+    "minify-css": "cleancss -o dist/main.min.css css/main.css",
+    "minify-js": "terser -o dist/main.min.js --compress --mangle -- js/main.js"
   },
   "keywords": [],
   "author": "",
