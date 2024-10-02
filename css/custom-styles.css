@@ -1,0 +1,45 @@
+/* Custom progress bar styles */
+.progress {
+    background-color: #e6ecf3;
+    height: 8px;
+    margin-top: 15px;
+    width: 85%;
+    margin-bottom: 37px;
+    border-radius: 3px;
+    overflow: visible;
+}
+
+.progress .progress-bar.javascript {
+    background-color: #44433d !important;
+}
+
+.progress .progress-bar.python {
+    background-color: #44433d !important;
+}
+
+.progress .progress-bar.html {
+    background-color: #44433d !important;
+}
+
+.single-progress-txt {
+    display: flex;
+}
+
+.progressText {
+	color: #fff !important;
+}
+
+.single-progress-txt h3 {
+    width: 10%;
+    color: #a2b0b3;
+    position: relative;
+    top: -4px;
+    left: 10px;
+	font-size: 12px;
+}
+
+.barWrapper {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}

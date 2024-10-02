@@ -345,7 +345,7 @@ nav a:hover::before {
 	width: 100%;
 }
 
-.slides div.main-btn a:hover {
+.slides .main-btn a:hover {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
@@ -409,29 +409,11 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
-	transition: all 0.5s;
 }
 
-.first-content .fb-btn {
-	display: inline-block;
-}
-
-.first-content .fb-btn a {
-	display: inline-block;
-	background-color: #fff;
-	border: 2px solid #fff;
-	padding: 8px 15px;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #232323;
-	text-decoration: none;
-	transition: all 0.5s;
-}
-
-.first-content .fb-btn a:hover {
-	color: #fff;
-	background-color: transparent;
+.slides .first-content .main-btn a:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 
@@ -495,6 +477,11 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
+}
+
+.slides .second-content .main-btn a:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .third-content {
@@ -563,6 +550,11 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.slides .third-content .main-btn a:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
 .third-content .col-md-6 {
 	margin: 0px;
 	padding: 0px;
@@ -585,7 +577,7 @@ nav a:hover::before {
 }
 
 .toggle-buttons {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .toggle-buttons button {
@@ -596,11 +588,28 @@ nav a:hover::before {
     margin-right: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+	font-size: 15px;
+	margin-bottom: 10px;
 }
 
-.toggle-buttons button:hover {
-    background-color: #fff;
-    color: #000;
+.slides .toggle-buttons button:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.resume-button {
+	background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	font-size: 15px;
+	margin-bottom: 20px;
+	width: 160px;
+}
+
+.resume-button a {
+	text-decoration: none !important;
 }
 
 .content-display ul {
@@ -612,23 +621,59 @@ nav a:hover::before {
     margin-bottom: 10px;
 }
 
-.progress {
-	background-color: #ddd;
-	border-radius: 10px;
-	height: 20px;
-	overflow: hidden;
-}
-
-.progress-bar {
-	background-color: #4CAF50;
-	height: 100%;
-	line-height: 20px;
-	text-align: center;
+.right-content h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
 	color: #fff;
-	width: 0%;
-	transition: width 1s ease;
+	letter-spacing: 0.5px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	margin-top: 15px;
 }
 
+.experience-item, .education-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-side {
+    width: 30%;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+
+.right-side {
+    width: 70%;
+}
+
+.experience-date, .education-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.third-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+	color: #fff !important;
+}
+
+.company-name, .institution-name {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+	color: #888;
+}
+
+.location {
+    font-size: 14px;
+    color: #888;
+}
 
 
 .fourth-content {
@@ -729,6 +774,11 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
+}
+
+.slides .fourth-content .main-btn a:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .fifth-content .container-fluid {

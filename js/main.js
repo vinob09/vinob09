@@ -2,20 +2,41 @@ jQuery(document).ready(function ($) {
 
     'use strict';
 
+    // Function to animate skill bars
+    function animateSkillBars() {
+        $('.progress-bar').each(function () {
+            var $this = $(this);
+            var percent = $this.data('percent');
+            $this.css('width', percent + '%');
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var progressBars = document.querySelectorAll('.progress-bar');
+        progressBars.forEach(function(bar) {
+            bar.style.setProperty('background-color', '#4CAF50', 'important');
+        });
+    });
+
     $(window).on('load', function () { // makes sure the whole site is loaded
         $(".seq-preloader").fadeOut(); // will first fade out the loading animation
         $(".sequence").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
 
-        // skill bar animation with delay
-        setTimeout(function () {
-            var progressBars = document.querySelectorAll('.progress-bar');
-            progressBars.forEach(function (bar, index) {
-                var value = bar.getAttribute('data-value');
-                setTimeout(function () {
-                    bar.style.width = value + '%';
-                }, index * 500); // Increase delay for each bar (0.5s per bar)
-            });
-        }, 3000);
+        setTimeout(animateSkillBars, 3500);
+    });
+
+    // Animate on scroll (if skills section is not visible on initial load)
+    $(window).on('scroll', function () {
+        var skillsSection = $('.right-content');
+        var skillsSectionTop = skillsSection.offset().top;
+        var windowHeight = $(window).height();
+        var scrollTop = $(window).scrollTop();
+
+        if (scrollTop > (skillsSectionTop - windowHeight + 200)) {
+            animateSkillBars();
+            // Remove scroll event listener after animation
+            $(window).off('scroll');
+        }
     });
 
     // Toggle between Experience and Education
@@ -28,23 +49,6 @@ jQuery(document).ready(function ($) {
         $('.experience-content').hide();
         $('.education-content').show();
     });
-
-    // Skill bar animation on scroll
-    const skillsSection = document.querySelector('.right-content');
-    const progressBars = document.querySelectorAll('.progress-bar');
-
-    $(window).on('scroll', function () {
-        const sectionPos = skillsSection.getBoundingClientRect().top;
-        const screenPos = window.innerHeight / 1.3;
-
-        if (sectionPos < screenPos) {
-            progressBars.forEach(bar => {
-                const value = bar.getAttribute('data-value');
-                bar.style.width = value + '%';
-            });
-        }
-    });
-
 
     $(function () {
 

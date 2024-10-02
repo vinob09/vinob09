@@ -19,5 +19,8 @@
     "jquery": "^3.7.1",
     "lightbox2": "^2.11.4",
     "modernizr": "^3.13.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
