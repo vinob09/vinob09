@@ -26,7 +26,7 @@
 }
 
 .progressText {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 .single-progress-txt h3 {
@@ -35,11 +35,80 @@
     position: relative;
     top: -4px;
     left: 10px;
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .barWrapper {
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+/* Custom form contact styling */
+/* #fs-frm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+#fs-frm input[type="submit"] {
+    background-color: #414344;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+}
+
+#fs-frm input[type="submit"]:hover {
+    background-color: #999ea3;
+} */
+
+.form-container {
+    padding-top: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.form-container label {
+    color: #fff !important;
+}
+
+.col-form-label.field-required {
+    color: #fff !important;
+}
+
+/* Social icons styles */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.contact h2 {
+    color: #b7b1b1;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 36px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
 }
